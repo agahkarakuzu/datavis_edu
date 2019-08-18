@@ -5,3 +5,4 @@ jupyter nbextension enable codefolding/main
 jupyter nbextension enable collapsible_headings/main
 jupyter nbextension enable hide_input/main
 jupyter nbextension enable init_cell/main
+jupyter labextension install @jupyterlab/plotly-extension
