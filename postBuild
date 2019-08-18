@@ -6,3 +6,5 @@ jupyter nbextension enable collapsible_headings/main
 jupyter nbextension enable hide_input/main
 jupyter nbextension enable init_cell/main
 jupyter labextension install @jupyterlab/plotly-extension
+jupyter labextension install jupyterlab_iframe
+jupyter serverextension enable --py jupyterlab_iframe
