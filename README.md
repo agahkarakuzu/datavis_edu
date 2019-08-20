@@ -1,3 +1,5 @@
+Elementary material &amp; env config to explore Plotly. BrainHack School 2019. 
+
 # Getting started 
 
 ### To work with the notebooks in this repository, you have 3 options.
@@ -32,8 +34,6 @@ Copy/paste this URL into your browser when you connect for the first time,
     to login with a token:
         http://0.0.0.0:36511/?token=f94f8fabb92e22f5bfab116c382b4707fc2cade56ad1ace0
 ```
-
-Elementary material &amp; env config to explore Plotly. BrainHack School 2019. 
 
 #### 3- Create a new conda environment 
 
