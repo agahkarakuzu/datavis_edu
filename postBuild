@@ -1,3 +1,4 @@
+python -m pip install statsmodels
 jupyter nbextension enable --py --sys-prefix ipyleaflet
 pip install jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
