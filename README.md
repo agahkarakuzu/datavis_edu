@@ -61,7 +61,12 @@ Install requirements:
 ```
 pip install -r requirements.txt
 ```
-Installation of the packages defined by `postBuild` script may change from OS to OS. If you are on Ubuntu `./postBuild` should do the trick. If you are on OSX or Windows, just copy paste the whole content to your terminal. 
+
+Install postBuild:
+```
+cat postBuild | while read in; do eval "$in"; done
+```
+This should work fine on OSX or Ubuntu, not sure about Windows. Worst case, you can just copy paste the whole content to your terminal :)
 
 You are ready to go! Start your favorite Jupyter interface (ensure that you are in repo): 
 
