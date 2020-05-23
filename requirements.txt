@@ -1,11 +1,12 @@
-numpy
-pandas
+numpy==1.18.4
+pandas==1.0.3
 plotly==4.7.1
 notebook>=6.0
 ipywidgets>=7.2
 jupyterlab>=2.0
-voila
+voila==0.1.21
 ipyleaflet
 jupyterlab_iframe
 jupyter-dash
 jupyter_server_proxy
+dash-bootstrap-components
