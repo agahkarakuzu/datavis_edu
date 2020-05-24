@@ -1,5 +1,3 @@
-Elementary material &amp; env config to explore Plotly. BrainHack School 2019. 
-
 # Presentation
 
 [![](http://img.shields.io/badge/Zenodo-Presentation-orange?style=flat&logo=microsoft%20powerpoint)](https://zenodo.org/record/3841775#.XsqgFJ5Kg1I)
@@ -7,9 +5,9 @@ Elementary material &amp; env config to explore Plotly. BrainHack School 2019.
 
 # Getting started 
 
-### To work with the notebooks in this repository, you have 3 options.
+#### To work with the notebooks in this repository, you have 3 options.
 
-#### 1- Just one click
+### 1- Just one click
 
 All you need is a web browser. Cllick the Binder badge below and start working with the notebooks. 
 
@@ -21,7 +19,7 @@ Note that changes you made to the notebooks won't be kept! Don't forget to downl
 
 [![](https://img.shields.io/badge/Voila-Dashboard-red?style=flat&logo=jupyter)](https://mybinder.org/v2/gh/agahkarakuzu/datavis_edu/master?urlpath=%2Fvoila%2Frender%2FPlotly_Voila.ipynb)
 
-#### 2- Repo2Docker 
+### 2- Repo2Docker 
 
 If you still would like to work in a container, but also to run it on your local machine instead of Binder's cloud resources, repo2docker is the easiest solution for you! **Make sure that you have Docker installed and running.** Not fully supported for Windows users tho :/. 
 
@@ -44,7 +42,7 @@ Copy/paste this URL into your browser when you connect for the first time,
         http://0.0.0.0:36511/?token=f94f8fabb92e22f5bfab116c382b4707fc2cade56ad1ace0
 ```
 
-#### 3- Create a new conda environment 
+### 3- Create a new conda environment 
 
 Create a new Python 3.6 env: 
 
@@ -64,18 +62,18 @@ git clone https://github.com/agahkarakuzu/datavis_edu.git
 cd datavis_edu
 ```
 
-Install requirements: 
+Install `requirements.txt`: 
 ```
 pip install -r requirements.txt
 ```
 
-Install postBuild:
+Install `postBuild`:
 ```
 cat postBuild | while read in; do eval "$in"; done
 ```
-This should work fine on OSX or Ubuntu, not sure about Windows. Worst case, you can just copy paste the whole content to your terminal :)
+This should work fine on `OSX` or `Ubuntu`, not sure about `Windows`. Worst case, you can just copy paste the whole content to your terminal :)
 
-You are ready to go! Start your favorite Jupyter interface (ensure that you are in repo): 
+You are ready to go! Start your favorite Jupyter interface (ensure that you are in repo directory): 
 
 ```
 jupyter notebook 
