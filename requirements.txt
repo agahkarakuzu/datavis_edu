@@ -1,12 +1,15 @@
 numpy==1.18.4
 pandas==1.0.3
-plotly==4.7.1
+plotly==4.14.0
 notebook>=6.0
 ipywidgets>=7.2
 jupyterlab>=2.0
-voila==0.1.21
+voila==0.2.6
+voila-gridstack==0.1.0
 ipyleaflet
 jupyterlab_iframe
 jupyter-dash
 jupyter_server_proxy
 dash-bootstrap-components
+ismrmrd
+statsmodels
